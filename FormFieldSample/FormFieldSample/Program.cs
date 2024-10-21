@@ -7,7 +7,7 @@ using Syncfusion.Pdf.Parsing;
 namespace FormFieldSample {
     internal class Program {
         static void Main(string[] args) {
-
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Your License key");
             CreateForm();
             FillForm();
         }
